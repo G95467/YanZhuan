@@ -1,0 +1,37 @@
+焰转 · 第三方组件说明
+
+1. FFmpeg
+   - 用途：视频、音频、图片格式转换。
+   - 许可证：GPL v2 / GPL v3（以随附构建为准），FFmpeg 是独立可执行程序。
+   - 项目主页：https://ffmpeg.org/
+   - 本应用通过独立进程调用 ffmpeg.exe，没有修改 FFmpeg 源码。
+
+2. Pandoc
+   - 用途：Markdown、Word、HTML、RTF、ODT、TXT 文档转换。
+   - 许可证：GPL v2 或更高版本。
+   - 项目主页：https://pandoc.org/
+   - 本应用通过独立进程调用 pandoc.exe，没有修改 Pandoc 源码。
+
+3. 流光下载器安装程序
+   - 用途：用户明确选择后，安装流光下载器以高速下载大文件。
+   - 本应用仅附带安装程序副本，不会自动安装，也不会静默安装。
+   - 安装程序版权归流光下载器作者所有。
+
+4. Microsoft Edge WebView2
+   - 用途：显示应用界面。
+   - 由 Microsoft 提供，遵循其许可条款。
+
+5. Windows DISM / IMAPI2
+   - 用途：ESD 镜像展开和 ISO 数据镜像生成。
+   - 属于 Windows 系统组件。
+
+6. Microsoft Edge（无头打印）
+   - 用途：Word 转 PDF 时把排版后的 HTML 打印为 PDF。
+   - 由 Microsoft 提供，遵循其许可条款。
+
+7. Windows.Data.Pdf / Windows.Media.Ocr
+   - 用途：PDF 页面渲染、图片文字识别。
+   - 属于 Windows 系统组件，OCR 需要系统已安装对应语言包。
+
+FFmpeg 和 Pandoc 的完整许可证文本请参阅其官方项目页面。若需重新分发本应用，
+请同时遵守上述组件的许可证要求。
